@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <LinearLayout
+        android:layout_marginTop="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        >
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="ID"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:id="@+id/sinhvien_card_id"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Tên sinh viên "
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:id="@+id/sinhvien_card_tenSV"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Năm Sinh"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:id="@+id/sinhvien_card_namSinh"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Quê Quán"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:id="@+id/sinhvien_card_queQuan"/>
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Năm học"
+            android:textColorHint="@color/black"
+            android:textSize="25dp"
+            android:id="@+id/sinhvien_card_namHoc"/>
+
+    </LinearLayout>
+
+</androidx.cardview.widget.CardView>
